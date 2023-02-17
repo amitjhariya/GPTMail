@@ -18,10 +18,15 @@ To install GPTMail Extension, follow these steps:
 2. Open Google Chrome and navigate to the Extensions settings.
 3. Enable Developer Mode.
 4. Click the "Load unpacked" button and select the extension's directory.
+5. provide OPEN API Keys and Signature When Extenstion will open a Extenstion Option new tab  
 
 ## Usage
 
-After installation, GPTMail Extension will be available in your Gmail account. Simply open a message and the extension will automatically provide a reply based on the message's content.
+After installation, GPTMail Extension will be available in your Gmail account. 
+Whenever you click click on Mail replay button GPTMail button will apear just before Send Button
+Click GPTMail button to get ,it will write a mail for you using openai api.
+![GPTmail Screen shot](images/1.png)
+
 
 ## Contributing
 
