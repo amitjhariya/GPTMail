@@ -301,3 +301,51 @@ text-align: center;
 .mt-2{
     margin-top: 2rem
 }
+
+@-webkit-keyframes gpt-rotate /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes gpt-rotate {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.gpt-rotate {
+  -webkit-animation: gpt-rotate 2s linear infinite;
+  -moz-animation: gpt-rotate 2s linear infinite;
+  -ms-animation: gpt-rotate 2s linear infinite;
+  -o-animation: gpt-rotate 2s linear infinite;
+  animation: gpt-rotate 2s linear infinite;
+  transform-origin:center
+}
+
+.icons{
+  padding-top: 50px;
+  margin: 20px ;
+}
+.footer{
+  position: fixed;
+  bottom: 5rem;
+  text-align: center;
+  width: 100vw;
+}

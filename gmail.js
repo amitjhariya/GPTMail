@@ -1,4 +1,5 @@
 window.onload = () => {
+  console.log("opened email");
   window.onhashchange = () => {
     // console.log("opened email");
 
