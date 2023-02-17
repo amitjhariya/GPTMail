@@ -1,6 +1,6 @@
 window.onload = () => {
   window.onhashchange = () => {
-    console.log("opened email");
+    // console.log("opened email");
 
     let hash = window.location.hash;
     if (hash.startsWith("#inbox/")) {
@@ -64,7 +64,7 @@ window.onload = () => {
 
           const gptHandler = document.getElementById("gptHandler");
           gptHandler.addEventListener("click", async () => {
-            console.log("USING GPT");
+            // console.log("USING GPT");
             useGpt();
           });
         } else {
