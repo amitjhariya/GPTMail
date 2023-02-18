@@ -22,10 +22,13 @@ To install GPTMail Extension, follow these steps:
 
 ## Usage
 
-After installation, GPTMail Extension will be available in your Gmail account. 
-Whenever you click click on Mail replay button GPTMail button will apear just before Send Button
+After installation, GPTMail Extension will be available in your Gmail  and LinkedIn Pages. 
+Whenever you click on Mail replay button GPTMail button will apear just before Send Button
+
 Click GPTMail button to get ,it will write a mail for you using openai api.
-![GPTmail Screen shot](images/1.png)
+Opening a message in LinkedIn at bootom GPT button will be available 
+![GPTmail Gmail Screen shot](images/1.png)
+![GPTmail LinkedIn Screen shot](images/2.png)
 
 
 ## Contributing

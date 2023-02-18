@@ -23,7 +23,7 @@
                 "https://www.linkedin.com/*"
             ],
             "js": [
-                "content.js"
+                "linkedin.js"
             ]
         }
     ],
